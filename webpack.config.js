@@ -11,7 +11,7 @@ module.exports =  (env, argv) => {
     return argv.mode === 'development';
   }
   var config = {
-    entry: './js/index.js',
+    entry: ['./js/index.js', './css/style.scss'],
     output: {
       filename: 'bundle.js',
       path: path.resolve(process.cwd(), 'dist')
@@ -35,7 +35,7 @@ module.exports =  (env, argv) => {
         filename: "bundle.css"
       })
     ],
-    devtool: isDevelopment() ? 'cheap-module-source-map' : 'source-map',
+    devtool: isDevelopment() ? 'source-map' : 'source-map',
     module: {
       rules: [
         {
@@ -79,7 +79,13 @@ module.exports =  (env, argv) => {
             },
             'sass-loader'
           ]
-        }
+        },
+        {
+         test: /\.(png|svg|jpg|gif)$/,
+         use: [
+           'file-loader'
+         ]
+       }
       ]
     }
   };

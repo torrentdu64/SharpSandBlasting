@@ -6,7 +6,17 @@
    <meta name='viewport' content='width=device-width, initial-scale=1' />
   <title>Sharp SandBlasting</title>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="dist/bundle.css">
+  <style>
+         q:before {
+            content: url('images/quotestart.png');
+            margin-right: 10px;
+          }
+          q:after  {
+            content: url('images/quoteend.png');
+            margin-left: 10px;
+          }
+  </style>
 </head>
 <body>
   <nav>
@@ -20,19 +30,20 @@
     </div>
   </nav>
 
-  <header>
+  <header style="background-image: url('images/Rectangle 9.png');">
     <div class="header-info">
       <h1>Quality and Effective Sandblasting Services</h1>
       <h3>Restoring your dreams!</h3>
       <p>We offer Media Blasting for Boats, Car Chassis’, Trailers. Furniture and anything else that meeds to be restored. A friendly and professional team who deliver a hassle-free service at competitive pricing.</p>
     </div>
     <div class="header-form">
-      <form action="/action_page.php">
+      <form action="/action_page.php" id="inquery">
         <p>Have an enquiry?</p>
+        <div id="form-messages" class="alert d-none text-center" role="alert"></div>
         <input type="text" id="fname" placeholder="Full Name*">
-        <input type="phone" id="fname" placeholder="Contact Phone*">
-        <input type="email" id="fname" placeholder="Email Address*">
-        <textarea name="comment" placeholder="Your Message*" form="usrform"></textarea>
+        <input type="phone" id="phone" placeholder="Contact Phone*">
+        <input type="email" id="email" placeholder="Email Address*">
+        <textarea name="message" id="comment" placeholder="Your Message*" form="usrform"></textarea>
         <input type="submit" value="Send Enquiry" class="btn-form">
       </form>
     </div>
@@ -74,7 +85,7 @@
       </div>
   </section>
   <section class="about-sharp">
-    <div class="bg-img">
+    <div class="bg-img" style="background-image: url('images/Rectangle 32.png');">
       <div class="about-sharp-info">
         <h3>About Sharp Sandblasting</h3>
         <p class="info-label">Friendly and Professional</p>
@@ -95,6 +106,7 @@
   <section class="quote">
     <h3>What our Clients say about us</h3>
     <div class="quote-info">
+
       <p><q>Hi Guys! I need to express my complete satisfaction for the job you have just finished for me! I gave you my car chassis fully striped to be sandblasted. I indicated that this vehicle was to be a show vehicle for my business so the prep work needed to be 100%. You returned the vehicle on the day you promised. You completed the sandblasting to my complete satisfaction. I would have no problem you using my response as a testimonial.</q></p>
       <p><q>Hi Peter and Cindy. Thank you so much for all the work you have completed for me recently. I gave my wheel hubs, trailer chassis, safety bars and my boat cradle. I was going to get new ones as there was so much rust on them  but you both suggested that you try Sandblasting first. Wow, they look great. You have saved me so  much money. You then directed me to a company to undercoat and overcoat them. I am one very happy customer.!</q></p>
     </div>
@@ -117,6 +129,6 @@
     </div>
     </div>
   </footer>
-
+<script src="dist/bundle.js" type="text/javascript" charset="utf-8" async defer></script>
 </body>
 </html>

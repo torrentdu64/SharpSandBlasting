@@ -1,0 +1,592 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  padding: 0px;
+  margin: 0px auto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 135.69%;
+  /* or 68px */
+  color: #FFFFFF;
+}
+
+a {
+  text-decoration: none; /* no underline */
+}
+
+  nav {
+    width:100%;
+    height:74px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logo-side {
+      margin-left: 64px;
+  }
+
+  .nav-logo1{
+    margin-top: 10px;
+    margin-right: 17px;
+    width: 71px;
+    height: 61px;
+  }
+
+  .nav-logo2{
+    margin-top: 5px;
+    width: 301px;
+    height: 69px;
+  }
+
+  .info-side {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 147.69%;
+    /* or 44px */
+    color: #000000;
+    margin-right: 108px;
+  }
+
+  .info-side img {
+    margin-right: 16px;
+  }
+
+  .info-side a {
+    color: rgba(0, 0, 0, 1);
+  }
+
+ /*HEARDER HERO SECTION */
+  header {
+    display:flex;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    // background-image: url('../images/Rectangle 9.png');
+    height: 700px;
+    width: 100%;
+  }
+
+
+
+  header h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 135.69%;
+    /* or 68px */
+    color: #FFFFFF;
+    width: 578px;
+    font-size: 50px;
+    margin-top: 215px;
+    margin-left: 64px
+
+  }
+
+  header h3 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 135.69%;
+    /* or 27px */
+    color: #FFFFFF;
+    margin-left: 64px
+  }
+
+  header p {
+    width: 455px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 157.19%;
+    /* or 25px */
+    color: #FFFFFF;
+    margin-left: 64px
+  }
+
+  .header-form{
+    margin-top: 57px;
+    margin-left: 8%;
+    width: 472px;
+    height: 588px;
+    background: white;
+  }
+
+  .header-form form input, textarea {
+    width: 400px;
+    height: 49px;
+    background: #FFFFFF;
+    border: 1px solid #BFBFBF;
+    box-sizing: border-box;
+    margin: 10px auto;
+  }
+
+  input, textarea, select { font-family:inherit; }
+
+  form {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header-form form input::placeholder, textarea::placeholder {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 147.69%;
+    /* identical to box height, or 21px */
+    color: #8F8F8F;
+    padding-left:18px;
+  }
+
+  .header-form form p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 147.69%;
+    /* identical to box height, or 27px */
+    color: #353535;
+    margin-top: 45px;
+    margin-left: 36px;
+  }
+
+  .header-form form .btn-form {
+    background: #D22525;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 147.69%;
+    /* identical to box height, or 27px */
+    color: #FFFFFF;
+    margin-top: 51px;
+  }
+
+  /*HEADER RED BANNER*/
+
+  .header-banner {
+    background: #D22525;
+    height: 113px;
+  }
+
+  .header-banner p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 135.69%;
+    /* identical to box height, or 34px */
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0px;
+    line-height: 113px;
+  }
+
+  .service .service-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 135.69%;
+    /* identical to box height, or 41px */
+    color: #000000;
+    padding-top: 108px;
+  }
+
+  .banner-link{
+    color: white;
+  }
+
+
+  /*SERVICE SECTION*/
+
+  .row-card{
+    display:flex;
+    justify-content: space-evenly;
+  }
+
+  .card {
+    width: 384px;
+    height: 610px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card h3{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 135.69%;
+    /* or 27px */
+    color: #000000;
+  }
+
+  .card p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 157.19%;
+    /* or 25px */
+    color: #000000;
+    flex-grow: 1;
+    width: 358px;
+    height: 149px;
+  }
+
+  .card .btn-more{
+    width: 136px;
+    height: 27px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 147.69%;
+    /* identical to box height, or 27px */
+    color: #FFFFFF;
+    background: #D22525;
+    padding: 15px 62px;
+
+  }
+
+  /*ABOUT SHARP SECTION*/
+  .about-sharp{
+    margin-top:112px;
+  }
+
+  .bg-img{
+    /*background-image: url('../images/Rectangle 32.png');*/
+    height: 645px;
+    object-fit: cover;
+  }
+
+  .about-sharp-info {
+    padding: 98px 64px;
+    height: 464px;
+  }
+
+  .about-sharp-info h3{
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 135.69%;
+    color: #FFFFFF;
+  }
+
+  .about-sharp-info .info-label{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 135.69%;
+    /* identical to box height, or 22px */
+    color: #D22525;
+  }
+
+  .about-sharp-info p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 157.19%;
+    /* or 25px */
+    color: #FFFFFF;
+    width: 531px;
+  }
+
+  .btn-about-sharp{
+    margin-top: 38px;
+    width: 213px;
+    height: 57px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 147.69%;
+    /* identical to box height, or 27px */
+    color: #FFFFFF;
+    background: #D22525;
+    text-align: center;
+    line-height: 57px;
+  }
+
+
+  /*ABOUT US SECTION*/
+
+  .contact-us p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 135.69%;
+    /* identical to box height, or 41px */
+    color: #000000;
+  }
+
+  .btn-contact-us{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 57px;
+    /* identical to box height, or 27px */
+    color: #FFFFFF;
+    background: #D22525;
+    width: 260px;
+    height: 57px;
+    text-align: center;
+    margin: 0px auto;
+  }
+
+  .quote {
+    background: #1F1F1F;
+    width: 100%;
+    height: 518px;
+  }
+
+  .quote-info{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .quote h3{
+    padding-top: 78px;
+    padding-left: 64px;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 135.69%;
+    /* or 47px */
+    color: #FFFFFF;
+  }
+
+  q:before {
+    /*content: url('../images/quotestart.png');*/
+    margin-right: 10px;
+  }
+  q:after  {
+    /*content: url('../images/quoteend.png');*/
+    margin-left: 10px;
+  }
+
+  .quote p {
+    width: 551px;
+    height: 169px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 157.19%;
+    justify-content: space-around;
+  }
+
+  footer .wrap-footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 64px;
+    margin-bottom: 95px;
+  }
+  footer img {
+    width: 143px;
+    height: 159px;
+  }
+
+  .footer-info h3 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 147.69%;
+    /* identical to box height, or 27px */
+    color: #D22525;
+    margin-bottom: 27px;
+  }
+
+  .footer-info p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 157.19%;
+    /* or 22px */
+    color: #000000;
+    width: 487px;
+    height: 66px;
+  }
+
+  .contact-footer h3{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 147.69%;
+    /* identical to box height, or 27px */
+    color: #D22525;
+     margin-bottom: 27px;
+  }
+
+  .contact-footer p{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    /* or 27px */
+    color: #353535;;
+  }
+
+
+ /* MOBILE VUE*/
+
+@media only screen and (max-width: 900px) {
+  /*NAVBAR SECTION*/
+  nav {
+    width:100%;
+    height:74px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logo-side {
+      margin-left: 64px;
+  }
+
+  .nav-logo1{
+    margin-top: 10px;
+    margin-right: 17px;
+    width: 71px;
+    height: 61px;
+  }
+
+  .nav-logo2{
+    display:none;
+  }
+
+  nav .info-side {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 147.69%;
+    color: #000000;
+    margin-right: 25px;
+  }
+
+  .info-side img {
+    margin-right: 16px;
+  }
+
+  .info-side a {
+    color: rgba(0, 0, 0, 1);
+  }
+
+  .info-side p {
+    font-size: 22px;
+  }
+
+  /*HEARDER HERO SECTION */
+  header {
+    flex-direction: column;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    /*background-image: url('../images/Rectangle 9.png');*/
+    height:auto;
+  }
+
+  header img{
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+  }
+
+  header h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 135.69%;
+    /* or 68px */
+    color: #FFFFFF;
+    width: 100%;
+    text-align: center;
+    margin-top:30px;
+    margin-left: 0px
+  }
+
+  header h3 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 135.69%;
+    /* or 27px */
+    color: #FFFFFF;
+    text-align: center;
+    margin-left: 0px;
+  }
+
+  header p {
+    width: inherit;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 157.19%;
+    /* or 25px */
+    color: #FFFFFF;
+    text-align: center;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    margin-left: 0px;
+  }
+
+  .header-form {
+    width: 325px;
+    padding: 0 15px;
+  }
+  .header-form input {
+    width: 100%;
+  }
+  .header-form form input, textarea {
+    width: 100%;
+
+  }
+
+  .row-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .card {
+    margin-bottom: 55px;
+  }
+
+  .about-sharp-info {
+    height: 545px;
+  }
+
+  .about-sharp-info p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 157.19%;
+    /* or 25px */
+    color: #FFFFFF;
+    width: 325px;
+  }
+
+  .bg-img{
+    /*background-image: url('../images/Rectangle 32.png');*/
+    height: auto;
+    object-fit: cover;
+  }
+
+  .quote {
+    height: auto;
+  }
+
+  .quote-info {
+    flex-direction: column;
+  }
+
+  .quote p {
+    width: 551px;
+    height: auto;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 157.19%;
+    width: 85%;
+    justify-content: space-around;
+    margin: 10px auto;
+  }
+
+  .footer-info{
+    display: none;
+  }
+
+
+
+
+
+
+
+
+}
