@@ -1,5 +1,5 @@
 {
-  "name": "katana-theme",
+  "name": "Sharp",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/torrentdu64/Katana-theme.git"
+    "url": "git+https://github.com/torrentdu64"
   },
   "author": "Torrent",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/torrentdu64/Katana-theme/issues"
+    "url": "https://github.com/torrentdu64"
   },
-  "homepage": "https://github.com/torrentdu64/Katana-theme#readme",
+  "homepage": "https://github.com/torrentdu64",
   "devDependencies": {
     "@babel/core": "^7.12.3",
     "@babel/preset-env": "^7.12.1",
