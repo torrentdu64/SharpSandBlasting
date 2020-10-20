@@ -1,5 +1,6 @@
 import '../css/style.scss';
-import $ from "jquery";
+import './mailer';
+
 //import mailer from "./mailer";
 
 

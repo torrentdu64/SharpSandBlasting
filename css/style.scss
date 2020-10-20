@@ -413,6 +413,17 @@ a {
     color: #353535;;
   }
 
+  div#form-messages {
+    color: red;
+    font-size: 18px;
+    position: absolute;
+    background: aliceblue;
+    top: -2%;
+    width: 37%;
+    padding: 10px;
+    text-align: center;
+  }
+
 
  /* MOBILE VUE*/
 

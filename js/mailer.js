@@ -6,6 +6,8 @@ import $ from "jquery";
 
   // Get the form.
   var form = $("#inquery");
+  var formMessages = $("#form-messages");
+  $(formMessages).css('display','none');
 
 
 
@@ -15,7 +17,7 @@ import $ from "jquery";
     e.preventDefault();
 
     // Get the messages div.
-    var formMessages = $("#form-messages");
+
 
     // Serialize the form data.
     var formData = $(form).serialize();
@@ -39,7 +41,7 @@ import $ from "jquery";
         $("#email").val("");
         $("#phone").val("");
         $("#comment").val("");
-
+        $(formMessages).css('display','none');
       })
       .fail(function (data) {
         // Make sure that the formMessages div has the 'error' class.
@@ -48,8 +50,10 @@ import $ from "jquery";
 
         // Set the message text.
         if (data.responseText !== "") {
+          $(formMessages).css('display','block');
           $(formMessages).text(data.responseText);
         } else {
+          $(formMessages).css('display','block');
           $(formMessages).text(
             "Oops! An error occured and your message could not be sent."
           );
