@@ -27,7 +27,7 @@ a {
   }
 
   .nav-logo1{
-    margin-top: 10px;
+    margin-top: 4px;
     margin-right: 17px;
     width: 71px;
     height: 61px;
@@ -36,7 +36,7 @@ a {
   .nav-logo2{
     margin-top: 5px;
     width: 301px;
-    height: 69px;
+    height: 48px;
   }
 
   .info-side {
@@ -164,6 +164,19 @@ a {
     /* identical to box height, or 27px */
     color: #FFFFFF;
     margin-top: 51px;
+    transition: all 1s ease;
+  }
+
+  .header-form form .btn-form:hover {
+    background: black;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 147.69%;
+    /* identical to box height, or 27px */
+    color: #FFFFFF;
+    margin-top: 51px;
   }
 
   /*HEADER RED BANNER*/
@@ -244,7 +257,12 @@ a {
     color: #FFFFFF;
     background: #D22525;
     padding: 15px 62px;
+    transition: all 1s ease;
 
+  }
+
+  .card .btn-more:hover {
+    background: black;
   }
 
   /*ABOUT SHARP SECTION*/
@@ -300,8 +318,13 @@ a {
     background: #D22525;
     text-align: center;
     line-height: 57px;
+    transition: all 1s ease;
   }
 
+  .btn-about-sharp:hover{
+    background: white;
+    color: black;
+  }
 
   /*ABOUT US SECTION*/
 
@@ -325,6 +348,12 @@ a {
     height: 57px;
     text-align: center;
     margin: 0px auto;
+    transition: all 1s ease;
+  }
+
+  .btn-contact-us:hover{
+
+    background: black;
   }
 
   .quote {
@@ -529,15 +558,19 @@ a {
   }
 
   .header-form {
-    width: 325px;
     padding: 0 15px;
+    width: 100%;
+    margin: auto;
   }
   .header-form input {
     width: 100%;
   }
   .header-form form input, textarea {
-    width: 100%;
+    width: 80%;
+  }
 
+  .service .service-title {
+    padding-top: 40px;
   }
 
   .row-card{
@@ -552,7 +585,7 @@ a {
   }
 
   .about-sharp-info {
-    height: 545px;
+    height: 660px;
   }
 
   .about-sharp-info p {
@@ -580,7 +613,7 @@ a {
 
   .quote p {
     width: 551px;
-    height: auto;
+    height: 300px;
     font-weight: 300;
     font-size: 16px;
     line-height: 157.19%;
